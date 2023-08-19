@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 1\\Tarea\\appTIenda\\Models\\Models.csproj": {}
+    "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 2\\Tarea\\appTIenda\\appTIenda\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 1\\Tarea\\appTIenda\\Models\\Models.csproj": {
+    "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 2\\Tarea\\appTIenda\\appTIenda\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 1\\Tarea\\appTIenda\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 2\\Tarea\\appTIenda\\appTIenda\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 1\\Tarea\\appTIenda\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 2\\Tarea\\appTIenda\\appTIenda\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 1\\Tarea\\appTIenda\\Models\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Bootcamp Yootube\\Semana 2\\Tarea\\appTIenda\\appTIenda\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

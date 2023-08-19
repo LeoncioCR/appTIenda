@@ -17,5 +17,13 @@ namespace Data
         public DbSet<Categoria> Categorias { get; set; }
 
         public DbSet<Producto> Productos { get; set; }
+
+        public DbSet<Rol> Roles { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
+
+        public DbSet<Ingreso> Ingresos { get; set; }
+
+        public DbSet<Detalle_Ingreso> Detalle_Ingresos { get; set; }
     }
 }

@@ -17,11 +17,13 @@ namespace API.Controllers
             _context = context;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<List<Producto>>> Get()
+        [HttpGet("GetProductoPorNombreQuery")]
+        public async Task<ActionResult<IEnumerable<Producto>>> GetProductoPorNombreQuery(string nomProducto)
         {
-            var lista = await _context.Productos.Include(c => c.Categoria).ToListAsync();
-            return Ok(lista);
+            var listaProducto = await (from p in _context.Productos.Include(p => p.Categoria)
+                                       where p.NomProducto == nomProducto
+                                       select p).ToListAsync();
+            return Ok(listaProducto);
         }
     }
 }
